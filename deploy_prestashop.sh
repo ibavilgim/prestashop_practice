@@ -14,6 +14,7 @@ apt upgrade -y
 
 # Instalación de paquetes
 apt install -y apache2 mysql-server php libapache2-mod-php php-mysql unzip php-intl
+phpenmod intl
 
 # Variables de la base de datos
 DB_NAME="prestashop"
